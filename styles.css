@@ -1,0 +1,82 @@
+.main-container {
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+h2,
+h3,
+p,
+a {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+font-size: 20px;
+text-decoration: none;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links a,
+.button {
+  color: white !important;
+  margin: 20px 15px;
+  border: 1px solid #add8e6;
+  border-radius: 3px;
+  padding: 15px;
+  background: #add8e6 !important;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+
+
+.homepage-link:hover {
+  color: #205454;
+}
+
+.paragraphs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.paragraph {
+  background: #d3d3d3;
+  font-size: 50px;
+  text-align: center;
+  margin: 10px;
+  padding: 200px 60px;
+  border-radius: 5px;
+}
+
+.contact-information {
+    font-size: 20px;
+    margin: 50px;
+}
+
+.email {
+  color: #2c6b6b;
+}
+
+.email:hover {
+  color: #205454;
+}
+
+.homepage-link {
+  color: #2c6b6b;
+  text-align: center !important;
+  margin: 315px;
+}
